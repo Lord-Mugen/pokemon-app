@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Main from "./containers/Main/Main";
 
 const App = () => {
-
   return (
-    <div className="App">
-     
-    </div>
-  )
-}
+    <>
+      <Main />
+    </>
+  );
+};
 
-export default App
+export default App;
